@@ -5,7 +5,7 @@
 -->
 
 <h1 align="center">Hi, I'm Arya K. Ravi 👋</h1>
-<h3 align="center">Product Manager · AI for Business · turning user problems into shipped, measured products</h3>
+<h3 align="center">Product Manager · AI for Business · Turning user problems into shipped, measured products</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/akr246"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
