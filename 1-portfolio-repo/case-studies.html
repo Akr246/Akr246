@@ -1,0 +1,179 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Case studies — Arya K. Ravi</title>
+<meta name="description" content="Three deep dives: an AI decision architecture, an SAP-to-cloud automation, and an experiment that validated a 30% risk reduction.">
+<meta name="theme-color" content="#070B1F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23070B1F'/%3E%3Ctext x='16' y='23' font-size='17' font-family='Georgia,serif' font-weight='700' fill='%234CC9F0' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--mid:#070B1F;--mid2:#0C1230;--line:rgba(140,160,255,.16);--ink:#EEF1FF;--ink2:#A7AFD6;--ink3:#7C85B0;
+ --blue:#4CC9F0;--blue2:#4895EF;--mauve:#C77DFF;--mauve2:#9D4EDD;--glowB:rgba(76,201,240,.42)}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--mid);color:var(--ink);font-family:Inter,system-ui,sans-serif;font-weight:300;
+ line-height:1.72;font-size:16.5px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+ background:radial-gradient(70% 45% at 18% 0%,rgba(72,149,239,.20),transparent 60%),
+            radial-gradient(60% 40% at 88% 12%,rgba(199,125,255,.16),transparent 62%)}
+.w{position:relative;z-index:1;max-width:820px;margin:0 auto;padding-left:26px;padding-right:26px}
+a{color:var(--blue);text-decoration:none;transition:.2s}a:hover{color:var(--mauve)}
+.serif{font-family:'Playfair Display',Georgia,serif}
+.rv{opacity:0;transform:translateY(28px);transition:opacity .8s cubic-bezier(.2,.7,.3,1),transform .8s cubic-bezier(.2,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}}
+.rule{height:1px;border:0;margin:0;background:linear-gradient(90deg,transparent,var(--blue2),var(--mauve),transparent);opacity:.5}
+header{padding:64px 0 10px}
+.back{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:var(--ink3);font-weight:600}
+h1{font-size:clamp(38px,7vw,60px);font-weight:600;line-height:1.04;margin-top:22px;
+ text-shadow:0 0 34px var(--glowB)}
+.sub{font-size:18px;color:var(--ink2);margin-top:18px;max-width:640px}
+section{padding:56px 0}
+.tag{font-size:11px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--mauve);margin-bottom:14px}
+h2{font-family:'Playfair Display',serif;font-size:32px;font-weight:600;line-height:1.15;margin-bottom:10px}
+.meta{font-size:13px;color:var(--ink3);letter-spacing:.6px;margin-bottom:24px}
+h3{font-size:12px;font-weight:600;letter-spacing:2.2px;text-transform:uppercase;color:var(--blue);margin:26px 0 9px}
+p{color:var(--ink2);margin-bottom:12px}
+p strong{color:var(--ink);font-weight:600}
+.box{background:var(--mid2);border:1px solid var(--line);border-radius:4px;padding:24px;margin:22px 0;position:relative}
+.box::before{content:'';position:absolute;top:-1px;left:0;right:0;height:1px;
+ background:linear-gradient(90deg,transparent,var(--blue),var(--mauve),transparent)}
+.ba{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin:22px 0}
+@media(max-width:640px){.ba{grid-template-columns:1fr}}
+.ba>div{background:var(--mid);padding:20px}
+.ba b{display:block;font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px}
+.ba .before b{color:var(--mauve)}.ba .after b{color:var(--blue)}
+.ba p{font-size:14.6px;margin-bottom:7px}
+.fill{border-left:2px solid var(--mauve);padding:14px 18px;background:rgba(199,125,255,.06);margin:18px 0;
+ font-size:14.5px;color:var(--ink2)}
+.fill b{color:var(--mauve);font-weight:600}
+.vid{width:100%;border-radius:4px;margin:22px 0;border:1px solid var(--line);display:block;background:#0B0D2A}
+.btn{display:inline-block;padding:12px 21px;border-radius:3px;font-size:13px;font-weight:600;letter-spacing:1.5px;
+ text-transform:uppercase;border:1px solid var(--line);color:var(--ink);background:rgba(255,255,255,.02);transition:.22s}
+.btn:hover{border-color:var(--blue);color:var(--blue);box-shadow:0 0 20px rgba(76,201,240,.22);transform:translateY(-2px)}
+.btn.p{border-color:var(--blue);color:var(--mid);background:var(--blue);box-shadow:0 0 26px var(--glowB)}
+.btn.p:hover{background:var(--mauve);border-color:var(--mauve);color:var(--mid)}
+.links{display:flex;flex-wrap:wrap;gap:11px;margin-top:24px}
+ul{margin:0 0 14px 20px}li{color:var(--ink2);margin-bottom:7px}
+footer{padding:52px 0 84px;color:var(--ink3);font-size:14.5px}
+</style></head><body>
+
+<header class="w rv">
+ <a class="back" href="index.html">← Back to portfolio</a>
+ <h1 class="serif">Case studies</h1>
+ <p class="sub">Three pieces of work in more depth — the reasoning, the trade-offs, and in one case the thing I got wrong.</p>
+</header>
+
+<div class="w"><hr class="rule"></div>
+
+<section class="w rv">
+ <div class="tag">Case study one</div>
+ <h2 class="serif">Designing a decision system that knows when to stop</h2>
+ <div class="meta">SpendLens · concept to live build · 2026</div>
+
+ <p><strong>The problem.</strong> A system that classifies someone's spending and then advises them on it has a failure mode that ordinary software does not. If it is wrong about a category, that is an annoyance. If it is confidently wrong about whether the user can afford something essential, the relationship is over.</p>
+
+ <p>So the interesting design question was never the classifier. It was: what does this do when it does not know?</p>
+
+ <video class="vid" autoplay muted loop playsinline preload="metadata" poster="assets/architecture-poster.jpg" aria-label="Animated architecture of the decision system">
+  <source src="assets/architecture-motion.mp4" type="video/mp4"></video>
+
+ <h3>Decision one · A confidence threshold</h3>
+ <p>Every classification carries a score. Below 0.6, the transaction does not render at all — it goes to a review queue and asks the user.</p>
+ <p>The trade-off is real and I want to be honest about it. A review queue looks like unfinished work. It adds friction to a product whose whole pitch is that it does the categorising for you. The argument for it is asymmetry: a missing answer is recoverable and a confidently wrong one is not. A user who sees their rent classified as discretionary does not file a bug report, they uninstall.</p>
+
+ <h3>Decision two · A fallback under every model</h3>
+ <p>Each model-dependent layer has a rules-based path that ships on its own. I built the fallbacks first and shipped those, before any model existed.</p>
+ <p>That sequencing was deliberate. If you cannot ship the fallback alone, you do not have a fallback — you have an outage waiting for a name. Building them first proves they work rather than assuming it.</p>
+
+ <h3>Decision three · A guardrail with veto power</h3>
+ <p>A separate service sits between the decision engines and the interface. It evaluates every recommendation before delivery and blocks any that touches an essential expense — medicine, rent, school fees. It can overrule every layer beneath it.</p>
+ <p>It is deliberately separate code. A guardrail that lives inside the thing it is guarding is not a guardrail, it is a preference.</p>
+
+ <h3>Why React and TypeScript</h3>
+ <p>The constraint that decided it: the product invites you to import a real bank statement, so nothing can leave the device. That ruled out any architecture with a server, which ruled out most of the alternatives. TypeScript because the classification logic has four bands, six engines and a lot of branching — the type system catches the class of error that would otherwise reach a user's money.</p>
+ <p>Charts are hand-rolled SVG with no charting dependency. A ninety-day forecast has to be drawn as a confidence band rather than a single line, because a single line is a claim to certainty the model cannot support, and most libraries make that awkward.</p>
+
+ <div class="box">
+  <h3 style="margin-top:0">What I got wrong</h3>
+  <p>While writing the PRD I found Ghosh and Huang's work on dynamic budget monitoring — five studies, three in the field. Two findings land directly on what I built. Multiple category budgets <em>increased</em> spending where a single overall budget reduced it. And precise figures accelerated spending where ranges did not.</p>
+  <p>The current build ships per-category allowances and precise figures. It is on the wrong side of both. Five of the six interventions they tested did work, so the paper became the v2 specification rather than just an objection — one envelope, range display, roll-over, shorter windows.</p>
+  <p>Finding that was more useful than any feature I could have added, and it is the reason I now read the literature that argues against a product before the literature that supports it.</p>
+ </div>
+
+ <div class="links">
+  <a class="btn p" href="https://akr246.github.io/spendlens-ai-spend-intelligence/">Open the live app</a>
+  <a class="btn" href="https://github.com/Akr246/spendlens-ai-spend-intelligence">Read the code</a>
+ </div>
+</section>
+
+<div class="w"><hr class="rule"></div>
+
+<section class="w rv">
+ <div class="tag">Case study two</div>
+ <h2 class="serif">Taking a billing workflow off manual extraction</h2>
+ <div class="meta">Align Technē · Technical Program Manager · Jul 2024 – Jan 2025</div>
+
+ <p><strong>The problem.</strong> Billing data lived in SAP BW. Getting it anywhere useful meant manual extraction on a recurring cycle — slow, repetitive, and the kind of task where an error surfaces late and costs more than the time saved.</p>
+
+ <div class="ba">
+  <div class="before"><b>Before</b>
+   <p>Manual extraction from SAP BW on each billing cycle</p>
+   <p>Data landing in spreadsheets before anything could use it</p>
+   <p>Turnaround dependent on someone being available to run it</p></div>
+  <div class="after"><b>After</b>
+   <p>SQL queries unloading SAP BW into Snowflake, then to AWS S3</p>
+   <p>Downstream systems reading from a consistent location</p>
+   <p><strong>20% improvement in operational efficiency</strong></p></div>
+ </div>
+
+ <h3>What I actually did</h3>
+ <p>Wrote the SQL to query and unload the SAP BW datasets, moved them through Snowflake into AWS S3, and made that the path the billing workflow ran on. Alongside it, ran the SAP master data migration and centralised master data for 200+ materials, which is what made the extraction reliable — the pipeline is only as good as the consistency of what it is pulling.</p>
+
+ <div class="fill">
+  <b>Fill this in before you publish:</b> the specifics only you have — how often the cycle ran, how long extraction took before and after, how many people were involved, and whether the 20% was measured on time, cost or error rate. Numbers you can defend in an interview are worth more than the ones already here.
+ </div>
+
+ <h3>What I would do differently</h3>
+ <div class="fill">
+  <b>Fill this in:</b> one honest thing. A decision you would reverse, something you underestimated, or a step you would sequence differently. This section is what separates a case study from a bullet point, and interviewers ask about it directly.
+ </div>
+</section>
+
+<div class="w"><hr class="rule"></div>
+
+<section class="w rv">
+ <div class="tag">Case study three</div>
+ <h2 class="serif">Validating a safety intervention with A/B testing</h2>
+ <div class="meta">Annalect India · Omnicom Group · Nov 2023 – Jun 2024</div>
+
+ <p><strong>The problem.</strong> A ride-hailing product for the underage rider segment carried a risk profile the standard product did not. Reducing that risk was the objective; proving the reduction was real was the harder half.</p>
+
+ <h3>The approach</h3>
+ <ul>
+  <li>Used AI models and data-driven strategy to identify high-risk scenarios</li>
+  <li>Designed the intervention against those scenarios rather than against assumptions</li>
+  <li>Validated through A/B testing with ROI analysis alongside it</li>
+  <li><strong>Result: 30% reduction in safety risk in high-risk scenarios</strong></li>
+ </ul>
+
+ <p>The part worth drawing out is the validation. A safety improvement is exactly the kind of claim that is easy to assert and hard to evidence, and the pressure is always to ship it and call the job done. Running it as a test meant the 30% was a measured effect rather than a hopeful one.</p>
+
+ <div class="fill">
+  <b>Fill this in before you publish:</b> what the primary metric was, roughly how long the test ran, what the guardrail metrics were, and whether anything surprised you. If you also remember a test that came back inconclusive, include it — an inconclusive result you called honestly is more persuasive than a clean win.
+ </div>
+
+ <h3>Alongside this</h3>
+ <p>The same period covered the product launch itself — ten cross-functional teams, a 10% order increase in the target demographic from the opportunity analysis — plus Tableau dashboards for go-to-market strategy that supported 10% growth in market reach, and an ad placement rework that delivered 15% quarterly growth in marketing ROI.</p>
+</section>
+
+<div class="w"><hr class="rule"></div>
+
+<footer class="w">
+ <p><strong style="color:var(--ink);font-weight:600">Get in touch</strong> — <a href="mailto:akr24698@gmail.com">akr24698@gmail.com</a> · <a href="https://www.linkedin.com/in/akr246">LinkedIn</a> · <a href="https://www.credly.com/users/arya-k-ravi">Credly</a> · <a href="https://github.com/Akr246">GitHub</a></p>
+ <p style="margin-top:12px"><a href="index.html">← Back to portfolio</a></p>
+</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.05});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+</script></body></html>

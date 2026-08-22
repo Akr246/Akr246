@@ -6,9 +6,13 @@ Psychology graduate turned product and programme professional. I work at the poi
 
 Open to **Product Associate**, **Product Analyst**, **Business Analyst** and **Associate Program Manager** roles.
 
-[**Portfolio**](https://akr246.github.io) · [**LinkedIn**](https://www.linkedin.com/in/akr246) · [**Credly**](https://www.credly.com/users/arya-k-ravi) · akr24698@gmail.com
+[**Portfolio**](https://akr246.github.io) · [**Case studies**](https://akr246.github.io/case-studies.html) · [**LinkedIn**](https://www.linkedin.com/in/akr246) · [**Credly**](https://www.credly.com/users/arya-k-ravi) · akr24698@gmail.com
 
 **Resume, by role** — [Product Associate](https://akr246.github.io/resumes/Arya-K-Ravi-Product-Associate.pdf) · [Associate Product Manager](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Product-Manager.pdf) · [Product Analyst](https://akr246.github.io/resumes/Arya-K-Ravi-Product-Analyst.pdf) · [Business Analyst](https://akr246.github.io/resumes/Arya-K-Ravi-Business-Analyst.pdf) · [Associate Program Manager](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Program-Manager.pdf)
+
+---
+
+**Focus areas** — product strategy · requirements gathering · product analytics · A/B testing · cross-functional leadership · stakeholder management · roadmap planning · KPI definition · process modelling · SQL · Python · Tableau · programme management · go-to-market · user research · behavioural economics · AI product management
 
 ---
 
@@ -64,3 +68,9 @@ Certified across Google Data Analytics, Google Cloud GenAI (Vertex AI, vector se
 ---
 
 📫 **akr24698@gmail.com** — happy to talk about product, analysis, or anything in the two paragraphs above.
+
+---
+
+📁 Full project index: **[PROJECTS.md](https://github.com/Akr246/Akr246.github.io/blob/main/PROJECTS.md)** · Deep dives: **[Case studies](https://akr246.github.io/case-studies.html)**
+
+*Last updated August 2026*

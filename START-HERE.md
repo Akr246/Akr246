@@ -1,233 +1,131 @@
-# START HERE — Arya K. Ravi · GitHub update kit
+# START HERE — GitHub profile upgrade
 
-Everything you need, in the order you need it. Browser only, no terminal.
-About 20 minutes start to finish.
+Three repositories to update. Browser only. About 25 minutes.
 
 ```
-1-portfolio-repo/        →  upload into  Akr246.github.io     (the portfolio website)
-2-profile-repo/          →  upload into  Akr246               (your profile README)
-resumes-to-apply-with/   →  keep on your computer            (attach to applications)
+1-portfolio-repo/       →  Akr246.github.io               (site + case studies + PROJECTS.md)
+2-profile-repo/         →  Akr246                         (profile README)
+3-spendlens-repo/       →  spendlens-ai-spend-intelligence (replaces its README)
+resumes-to-apply-with/  →  keep on your computer
 ```
 
-You are creating **two repositories**. A third — `spendlens-ai-spend-intelligence` — already
-exists and needs nothing except the tidy-up in Part 5.
+**What changed in this version**
 
-| Repo | Becomes | Lives at |
-|---|---|---|
-| `Akr246.github.io` | Portfolio website + all six resumes | akr246.github.io |
-| `Akr246` | Profile README | github.com/Akr246 |
-
-**Do Part 1 before Part 2.** The profile README links to the portfolio, so the portfolio
-has to exist first.
-
----
-
-# PART 1 · The portfolio website
-
-### 1.1 Create the repository
-
-Skip this if `Akr246.github.io` already exists.
-
-1. Go to **https://github.com/new**
-2. **Repository name:** `Akr246.github.io`
-   Exactly your username, then `.github.io`. This exact name is what makes GitHub serve it
-   as a website rather than just storing the files.
-3. **Description** *(optional)*: `My portfolio — product, analysis and programme work. Live at akr246.github.io`
-4. **Public**
-5. Leave all three checkboxes **unticked**
-6. **Create repository**
-
-### 1.2 Upload the files
-
-The folder structure matters. `assets/` and `resumes/` must arrive as folders, not loose files.
-
-1. On the page that appears, click **uploading an existing file**
-2. Open the `1-portfolio-repo` folder on your computer
-3. Select **all three items** — `index.html`, the `assets` folder, and the `resumes` folder —
-   and drag them into the browser together
-4. Wait until the file list stops growing. There are 10 files; the video is ~1.4 MB and is
-   the slow one. Give it 30 seconds.
-5. Scroll to the bottom → **Commit changes**
-
-**Verify before you continue.** The repo should now show `index.html` plus two folders.
-
-> **If you only see `index.html`:** the folders did not come across. Do them separately —
-> **Add file → Upload files**, drag only the `assets` folder, commit. Then repeat with
-> `resumes`. This is the step that has failed before, so check it properly.
-
-### 1.3 Turn on GitHub Pages
-
-**Settings → Pages → Build and deployment**
-
-- **Source:** Deploy from a branch
-- **Branch:** `main`, folder `/ (root)`
-- **Save**
-
-Wait 1–2 minutes, then open **https://akr246.github.io**
-
-**What you should see:** your photo inside a slowly rotating blue-to-mauve ring, the four
-numbers counting up as you scroll, and five role tabs. Click a tab — the paragraph and the
-resume download should both change.
-
-> **404?** Wait another minute and hard-refresh with **Ctrl+Shift+R**. First deployments are
-> often slow.
-
-### 1.4 Add the About details
-
-Back on the repo page, click the **gear icon** next to "About" on the right:
-
-- **Website:** `https://akr246.github.io`
-- Tick **"Use your GitHub Pages website"**
-- **Topics:** `portfolio` `product-management` `business-analysis` `product-analytics`
+- New **case studies page** — three deep dives with the reasoning, the trade-offs, and one thing that went wrong
+- **"Actively interviewing"** status on the hero
+- **Focus areas** keyword band — real ATS terms, visible rather than hidden
+- **"Why React and TypeScript"** section added to the SpendLens card
+- **PROJECTS.md** — a proper project index in the portfolio repo
+- **Rewritten SpendLens README** — problem, role, architecture, decisions, what I'd change
+- **Last updated** stamp in the footer
 
 ---
 
-# PART 2 · The profile README
+## PART 1 · Portfolio repo — `Akr246.github.io`
 
-### 2.1 Create the repository
+**Add file → Upload files.** Drag in **all five items** from `1-portfolio-repo`:
 
-Skip this if `Akr246` already exists.
+- `index.html` *(replaces the old one)*
+- `case-studies.html` *(new)*
+- `PROJECTS.md` *(new)*
+- `assets` folder
+- `resumes` folder
 
-1. **https://github.com/new**
-2. **Repository name:** `Akr246` — exactly your username.
-   GitHub displays a message with a sparkle emoji saying you found a secret. That is your
-   confirmation you have it right.
-3. **Description** *(optional)*: `My GitHub profile README`
-4. **Public**
-5. **Tick "Add a README file"** — this is the one and only time you want that box ticked
-6. **Create repository**
+**Commit changes.**
 
-### 2.2 Paste in the content
+Uploading a file with the same name replaces it — that is how `index.html` updates.
 
-1. Click **README.md**
-2. Click the **pencil icon** (Edit this file), top right
-3. Select everything already there and delete it
-4. Open `2-profile-repo/README.md` from the kit, copy the whole file, paste it in
-5. **Commit changes…** → leave "Commit directly to the `main` branch" selected →
-   **Commit changes**
+**Check:** open `https://akr246.github.io` and click **Case studies** in the hero. It should
+load the new page. Also confirm the **Focus areas** band appears under the four numbers.
 
-Go to **https://github.com/Akr246**. The README now sits at the top of your profile.
-
-**Verify:** click one of the five role-resume links. It should open the PDF from the
-portfolio site you deployed in Part 1.
+> If the folders do not come across, upload `assets` and `resumes` separately. This is the
+> step that has failed before.
 
 ---
 
-# PART 3 · Profile settings
+## PART 2 · Profile repo — `Akr246`
 
-On **github.com/Akr246**, click **Edit profile** (left column, under your photo).
+Open `README.md` → **pencil icon** → select all, delete → paste `2-profile-repo/README.md`
+→ **Commit changes**.
 
-**Bio** — your current one points recruiters at data-analyst roles, which is not what you
-are applying for. Replace it with:
+**Check:** `github.com/Akr246` now shows the Focus areas line and links to Case studies and
+PROJECTS.md.
 
+---
+
+## PART 3 · SpendLens repo — `spendlens-ai-spend-intelligence`
+
+Open its `README.md` → **pencil icon** → select all, delete → paste
+`3-spendlens-repo/README.md` → **Commit changes**.
+
+This one matters more than it looks. Anyone who clicks through from your portfolio lands
+here, and the old README was written before the case study existed.
+
+---
+
+## PART 4 · Two things only you can finish
+
+The case studies page has **three `Fill this in` boxes** in mauve. They are in case studies
+two and three — the Align Technē automation and the Annalect A/B test.
+
+I wrote those two from your LinkedIn, which gives the outcome but not the working. The boxes
+ask for the detail only you have:
+
+- How often the billing cycle ran, and how long extraction took before and after
+- Whether the 20% was measured on time, cost, or error rate
+- What the A/B test's primary metric was and roughly how long it ran
+- One honest "what I'd do differently" for each
+
+**Edit them in `case-studies.html`** — search for `class="fill"`, replace the text between
+the `<div>` tags, commit. Or delete the box entirely if you would rather leave the section short.
+
+**Do not publish those two case studies with the boxes still visible.** A recruiter reading
+"Fill this in" is worse than a shorter case study. Either complete them or remove the boxes.
+
+---
+
+## PART 5 · Profile settings, if not already done
+
+**github.com/Akr246 → Edit profile**
+
+Bio:
 ```
 Psychology → product. I turn loose requirements into things teams can build. Ex-TPM @ Align Technē. MBA in AI for Business, in progress. Open to Product / BA / APM roles.
 ```
 
-**Location:** `Bengaluru, India`
+Website: `https://akr246.github.io` · Location: `Bengaluru, India` · Company: Alignerr or blank
 
-**Website:** `https://akr246.github.io`
-
-**Company:** currently shows Codsoft — change to Alignerr, or clear it.
-
-**Social accounts:** add your LinkedIn if it is not already there.
-
-**Save.**
+**Customize your pins** → tick `spendlens-ai-spend-intelligence`, untick `testrepo`.
 
 ---
 
-# PART 4 · Pinned repositories
+## Final check
 
-Your profile currently pins **CODINGSAMURAI** and **testrepo**. A repository called
-"testrepo" on a profile you are sending to employers reads as unfinished before anyone
-clicks it.
-
-On your profile → **Customize your pins**:
-
-- **Tick** `spendlens-ai-spend-intelligence`
-- **Untick** `testrepo`
-- Keep `CODINGSAMURAI` only if the work inside is presentable — open it and check first
-- **Save pins**
-
-SpendLens should sit first in the order.
+- [ ] akr246.github.io loads and the **Case studies** button works
+- [ ] Focus areas band visible under the stats
+- [ ] "Actively interviewing" shows in the hero
+- [ ] SpendLens repo README is the new one
+- [ ] PROJECTS.md opens from the profile README
+- [ ] **No `Fill this in` boxes remain visible on the published case studies page**
+- [ ] Open the site on your phone
 
 ---
 
-# PART 5 · Tidy the SpendLens repo
+## What I did not build, and why
 
-Open `spendlens-ai-spend-intelligence` → **gear icon** next to "About":
+The advice you pasted suggested several things I have deliberately left out:
 
-- **Description:** `Behavioural spend intelligence for Indian households — RED/GREEN priority classification, goal feasibility and pattern detection. React + TypeScript, runs entirely in the browser.`
-- **Website:** `https://akr246.github.io/spendlens-ai-spend-intelligence/` and tick
-  **"Use your GitHub Pages website"**
-- **Topics:** `react` `typescript` `vite` `fintech` `personal-finance` `product-management` `data-visualization`
+**Press mentions, speaking engagements, published articles, LinkedIn recommendations,
+open-source contributions.** You do not have these yet. Adding them would be inventing a
+record, which is the same problem as the sixteen projects — and these are all trivially
+checkable.
 
----
+**Star counts on repos.** Yours are at zero. Displaying that number draws attention to it.
 
-# Final checklist
+**A Tableau dashboard link.** You built dashboards at Annalect, but that work belongs to
+them. Do not publish it. If you want a public dashboard, build one on open data — that is
+project 2 in the briefs document.
 
-- [ ] **akr246.github.io** loads — photo, rotating ring, counters animate
-- [ ] Clicking a role tab swaps both the paragraph and the resume download
-- [ ] The architecture video plays inside the SpendLens card
-- [ ] **github.com/Akr246** shows the README at the top
-- [ ] The five role-resume links in the README all open
-- [ ] The **Credly** link works — *make sure that profile is set to public*
-- [ ] Bio no longer says "Data Analyst"
-- [ ] `testrepo` is unpinned; SpendLens is pinned first
-- [ ] Open **akr246.github.io on your phone** — this is how most recruiters see it first
-
----
-
-# Which resume goes where
-
-| Applying for | Send this file |
-|---|---|
-| Product Associate | `Arya-K-Ravi-Product-Associate.pdf` |
-| Associate Product Manager | `Arya-K-Ravi-Associate-Product-Manager.pdf` |
-| Product Analyst | `Arya-K-Ravi-Product-Analyst.pdf` |
-| Business Analyst | `Arya-K-Ravi-Business-Analyst.pdf` |
-| Associate Program Manager | `Arya-K-Ravi-Associate-Program-Manager.pdf` |
-| Unsure, or a mixed posting | `Arya-K-Ravi-Resume-General.pdf` |
-
-All of them carry **identical facts**. What changes is which role is named at the top, which
-competency group leads, and the order of bullets inside each job. The Product Analyst version
-opens Annalect with the Tableau and A/B testing work; the Business Analyst version opens
-Align Technē with the SAP migration. Nothing is added, removed or invented between versions.
-
-The `.docx` files are included so you can edit them yourself later.
-
----
-
-# Updating anything, later
-
-**A resume** — upload the new PDF into the `resumes` folder of `Akr246.github.io` using the
-**same filename**. It overwrites the old file and every link — portfolio, profile README,
-anything you have already sent — keeps working. Never rename the files.
-
-**Portfolio wording** — open `index.html` in the repo, pencil icon, edit, commit. Live in
-about a minute. It is plain HTML; the text is readable and safe to change.
-
-**Add a project card** — in `index.html`, find a block that starts
-`<div class="card" style="margin-top:22px">`. Copy the entire block, paste it below itself,
-and change the heading and paragraph.
-
-**Change a role pitch** — near the bottom of `index.html`, find `const ROLES=[`. Each entry
-has `k` (the tab label), `f` (the PDF filename) and `p` (the paragraph). Edit the text
-between the quote marks.
-
-**Bio, pins, website field** — profile page, instant, no commit required.
-
-**SpendLens app** — any commit to `main` in that repo redeploys the live site automatically.
-
----
-
-# Two things to settle before you start applying
-
-**Make LinkedIn agree with the resumes.** LinkedIn says **Annalect India**; the resumes say
-"Annalect India (Omnicom Group)". Your MBA start reads **April 2026** on LinkedIn. Pick one
-version of each and make both places match — a recruiter will have both tabs open at once.
-
-**Your other seven repositories.** Anything public with no README, a default name, or
-abandoned starter code is one click away from your profile. Ten minutes to add a short README
-or set them private. A recruiter who clicks "Repositories" and finds five empty ones draws a
-conclusion you did not intend.
+Three of those become available the moment you finish a project or two: an article about
+the behavioural teardown, a public dashboard from the review-mining project, and a real
+open-source repo. That is the honest route to the same outcome.

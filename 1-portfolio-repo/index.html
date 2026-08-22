@@ -67,6 +67,9 @@ h1{font-size:clamp(44px,8vw,72px);font-weight:600;line-height:1.02;letter-spacin
  box-shadow:0 0 0 0 var(--glowB);animation:pulse 2.6s infinite}
 @keyframes pulse{70%{box-shadow:0 0 0 12px rgba(76,201,240,0)}100%{box-shadow:0 0 0 0 rgba(76,201,240,0)}}
 
+.focus{margin-top:30px;padding:20px 22px;border:1px solid var(--line);border-radius:4px;background:rgba(255,255,255,.015)}
+.fh{font-size:10.5px;font-weight:600;letter-spacing:2.6px;text-transform:uppercase;color:var(--mauve);margin-bottom:9px}
+.fk{font-size:13.4px;color:var(--ink3);line-height:1.85}
 .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:44px;
  background:var(--line);border:1px solid var(--line)}
 @media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
@@ -142,17 +145,22 @@ footer{padding:60px 0 90px;color:var(--ink3);font-size:14.5px}
  <p class="lede rv">I work at the point where a loose requirement has to become something a team can actually build — writing the spec, agreeing what the metric is, and staying with it through to what ships. Three years across product operations, technical programme management and AI training data, currently completing an MBA in AI for Business at BITS Pilani.</p>
  <div class="links rv">
   <a class="btn p" href="#roles">Resume</a>
+  <a class="btn" href="case-studies.html">Case studies</a>
   <a class="btn" href="https://www.linkedin.com/in/akr246">LinkedIn</a>
   <a class="btn" href="https://www.credly.com/users/arya-k-ravi">Credly</a>
   <a class="btn" href="https://github.com/Akr246">GitHub</a>
   <a class="btn" href="mailto:akr24698@gmail.com">Email</a>
  </div>
- <div class="avail rv"><span class="dot"></span> Open to Product Associate, Associate Product Manager, Product Analyst, Business Analyst and Associate Program Manager roles</div>
+ <div class="avail rv"><span class="dot"></span> <span><strong style="color:var(--blue);font-weight:600">Actively interviewing</strong> — open to Product Associate, Associate Product Manager, Product Analyst, Business Analyst and Associate Program Manager roles. Bengaluru or remote.</span></div>
  <div class="stats rv">
   <div class="stat"><b data-c="3">0</b><span>years across product, programme &amp; AI data</span></div>
   <div class="stat"><b data-c="500" data-s="+">0</b><span>stakeholders on an internal AI tool</span></div>
   <div class="stat"><b data-c="10" data-s="+">0</b><span>cross-functional teams on one launch</span></div>
   <div class="stat"><b data-c="20" data-s="%">0</b><span>efficiency gain via SQL automation</span></div>
+ </div>
+ <div class="focus rv">
+  <div class="fh">Focus areas</div>
+  <div class="fk">Product strategy · Requirements gathering · Product analytics · A/B testing and experiment design · Cross-functional leadership · Stakeholder management · Roadmap planning · KPI definition · Process modelling · Business process improvement · SQL · Python · Tableau · Data analysis · Programme management · Agile · Go-to-market · User research · Behavioural economics · AI product management · Human-in-the-loop systems</div>
  </div>
 </header>
 
@@ -179,16 +187,19 @@ footer{padding:60px 0 90px;color:var(--ink3);font-size:14.5px}
    <div class="blk"><h4>Two decisions worth defending</h4>
     <p><strong style="color:var(--ink);font-weight:600">Classification carries a confidence score.</strong> Anything below the threshold goes to a human review queue instead of rendering. A confident wrong answer costs more trust than an honest question, and unlike a missing answer you don't recover from it.</p>
     <p style="margin-top:12px"><strong style="color:var(--ink);font-weight:600">A guardrail service sits between the engines and the interface.</strong> It blocks any recommendation touching an essential expense and can overrule every layer beneath it — deliberately separate code, because a guardrail that lives inside the thing it guards isn't a guardrail.</p></div>
+   <div class="blk"><h4>Why React and TypeScript</h4><p>One constraint decided it: the product invites you to import a real bank statement, so nothing can leave the device. That ruled out any architecture with a server. TypeScript because the classification logic has four bands, six engines and heavy branching — the type system catches the class of error that would otherwise reach a user's money. Charts are hand-rolled SVG so a forecast can be drawn as a confidence band rather than a single line.</p></div>
    <div class="blk"><h4>What I'd change</h4><p>The research I found while writing the PRD says category-split budgets and precise figures both increase spending. The current build does both. That's the first thing to fix, and finding it was more useful than any feature I could have added.</p></div>
   </div>
   <div class="links" style="margin-top:26px">
    <a class="btn p" href="https://akr246.github.io/spendlens-ai-spend-intelligence/">Open the live app</a>
-   <a class="btn" href="https://github.com/Akr246/spendlens-ai-spend-intelligence">Read the code</a></div>
+   <a class="btn" href="https://github.com/Akr246/spendlens-ai-spend-intelligence">Read the code</a>
+   <a class="btn" href="case-studies.html">Full case study</a></div>
  </div>
  <div class="card" style="margin-top:22px">
   <h3 class="serif">Process Modelling &amp; System Implementation</h3>
   <div class="muted" style="font-size:13.5px;letter-spacing:.8px;margin-bottom:12px">Client onboarding blueprint</div>
-  <p class="muted">Turned business requirements into access-provisioning checklists and milestone-tracking dashboards. Automating the document handling cut processing time by 40%.</p></div>
+  <p class="muted">Turned business requirements into access-provisioning checklists and milestone-tracking dashboards. Automating the document handling cut processing time by 40%.</p>
+  <div class="links" style="margin-top:18px"><a class="btn" href="case-studies.html#automation">Read the automation case study</a></div></div>
  <div class="card" style="margin-top:22px">
   <h3 class="serif">Information Flow Optimisation</h3>
   <div class="muted" style="font-size:13.5px;letter-spacing:.8px;margin-bottom:12px">LLM workflow for B2B communications</div>
@@ -250,6 +261,7 @@ footer{padding:60px 0 90px;color:var(--ink3);font-size:14.5px}
 <footer class="w">
  <p style="font-size:15.5px"><strong style="color:var(--ink);font-weight:600">Get in touch</strong> — <a href="mailto:akr24698@gmail.com">akr24698@gmail.com</a> · <a href="https://www.linkedin.com/in/akr246">LinkedIn</a> · <a href="https://www.credly.com/users/arya-k-ravi">Credly</a> · <a href="https://github.com/Akr246">GitHub</a></p>
  <p style="margin-top:12px">Happy to talk about product, analysis, or anything on this page.</p>
+ <p style="margin-top:20px;font-size:12.5px;color:var(--ink3);letter-spacing:.6px">Last updated August 2026 · <a href="case-studies.html">Case studies</a> · <a href="https://github.com/Akr246/Akr246.github.io">Source</a></p>
 </footer>
 
 <script>
