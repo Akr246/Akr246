@@ -1,0 +1,288 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Arya K. Ravi — Product · Analysis · Programme</title>
+<meta name="description" content="Psychology graduate turned product and programme professional. Product Associate, Associate Product Manager, Product Analyst, Business Analyst and Associate Program Manager roles. Bengaluru, India.">
+<meta property="og:title" content="Arya K. Ravi — Product · Analysis · Programme">
+<meta property="og:description" content="Psychology → product. I turn loose requirements into things teams can build.">
+<meta property="og:image" content="assets/arya.jpg"><meta property="og:type" content="profile">
+<meta name="theme-color" content="#070B1F">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23070B1F'/%3E%3Ctext x='16' y='23' font-size='17' font-family='Georgia,serif' font-weight='700' fill='%234CC9F0' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+ --mid:#070B1F;        /* midnight blue */
+ --mid2:#0C1230;       /* raised panel */
+ --line:rgba(140,160,255,.16);
+ --ink:#EEF1FF; --ink2:#A7AFD6; --ink3:#7C85B0;
+ --blue:#4CC9F0; --blue2:#4895EF;
+ --mauve:#C77DFF; --mauve2:#9D4EDD;
+ --glowB:rgba(76,201,240,.42); --glowM:rgba(199,125,255,.38);
+}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{background:var(--mid);color:var(--ink);font-family:Inter,system-ui,sans-serif;
+ font-weight:300;line-height:1.72;font-size:16.5px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+ background:radial-gradient(70% 45% at 18% 0%,rgba(72,149,239,.20),transparent 60%),
+            radial-gradient(60% 40% at 88% 12%,rgba(199,125,255,.16),transparent 62%),
+            radial-gradient(70% 40% at 50% 100%,rgba(76,201,240,.10),transparent 60%)}
+.w{position:relative;z-index:1;max-width:860px;margin:0 auto;padding-left:26px;padding-right:26px}
+a{color:var(--blue);text-decoration:none;transition:.2s}
+a:hover{color:var(--mauve);text-decoration:none}
+.serif{font-family:'Playfair Display',Georgia,serif}
+
+/* motion */
+.rv{opacity:0;transform:translateY(30px);transition:opacity .85s cubic-bezier(.2,.7,.3,1),transform .85s cubic-bezier(.2,.7,.3,1)}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.ring,.dot{animation:none!important}}
+
+/* neon rule */
+.rule{height:1px;border:0;margin:0;background:linear-gradient(90deg,transparent,var(--blue2),var(--mauve),transparent);opacity:.5}
+
+/* hero */
+header{padding:82px 0 8px}
+.pw{position:relative;width:132px;height:132px;margin-bottom:30px}
+.ring{position:absolute;inset:-10px;border-radius:50%;
+ background:conic-gradient(from 0deg,var(--blue),var(--mauve),var(--blue2),var(--mauve2),var(--blue));
+ animation:spin 11s linear infinite;filter:blur(.4px);opacity:.95}
+.ring::after{content:'';position:absolute;inset:-14px;border-radius:50%;
+ background:conic-gradient(from 0deg,var(--blue),var(--mauve),var(--blue));filter:blur(17px);opacity:.5}
+@keyframes spin{to{transform:rotate(360deg)}}
+.pw img{position:relative;width:132px;height:132px;border-radius:50%;object-fit:cover;
+ border:5px solid var(--mid);display:block}
+.loc{font-size:11.5px;font-weight:600;letter-spacing:3.4px;text-transform:uppercase;color:var(--mauve);margin-bottom:16px}
+h1{font-size:clamp(44px,8vw,72px);font-weight:600;line-height:1.02;letter-spacing:-1px;
+ text-shadow:0 0 34px var(--glowB),0 0 70px rgba(76,201,240,.18)}
+.tag{font-size:clamp(17px,3vw,21px);color:var(--blue);margin-top:18px;font-weight:400;letter-spacing:.2px}
+.lede{margin-top:24px;color:var(--ink2);font-size:17px;max-width:700px}
+.links{display:flex;flex-wrap:wrap;gap:11px;margin-top:32px}
+.btn{display:inline-block;padding:12px 21px;border-radius:3px;font-size:13px;font-weight:600;
+ letter-spacing:1.5px;text-transform:uppercase;border:1px solid var(--line);color:var(--ink);
+ background:rgba(255,255,255,.02);transition:.22s}
+.btn:hover{border-color:var(--blue);color:var(--blue);box-shadow:0 0 20px rgba(76,201,240,.22);transform:translateY(-2px)}
+.btn.p{border-color:var(--blue);color:var(--mid);background:var(--blue);box-shadow:0 0 26px var(--glowB)}
+.btn.p:hover{background:var(--mauve);border-color:var(--mauve);color:var(--mid);box-shadow:0 0 30px var(--glowM)}
+.avail{margin-top:28px;font-size:14px;color:var(--ink3);display:flex;align-items:flex-start;gap:11px;letter-spacing:.2px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--blue);flex:none;margin-top:9px;
+ box-shadow:0 0 0 0 var(--glowB);animation:pulse 2.6s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 12px rgba(76,201,240,0)}100%{box-shadow:0 0 0 0 rgba(76,201,240,0)}}
+
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:44px;
+ background:var(--line);border:1px solid var(--line)}
+@media(max-width:640px){.stats{grid-template-columns:repeat(2,1fr)}}
+.stat{background:var(--mid);padding:20px 16px}
+.stat b{display:block;font-family:'Playfair Display',serif;font-size:31px;font-weight:600;color:var(--blue);
+ text-shadow:0 0 20px var(--glowB)}
+.stat span{font-size:11.5px;color:var(--ink3);line-height:1.4;display:block;margin-top:5px;letter-spacing:.3px}
+
+section{padding:66px 0}
+h2{font-size:11.5px;font-weight:600;letter-spacing:3.4px;text-transform:uppercase;color:var(--mauve);margin-bottom:30px}
+h3{font-family:'Playfair Display',serif;font-size:29px;font-weight:600;letter-spacing:-.3px;margin-bottom:8px}
+.muted{color:var(--ink2)}
+
+/* role picker */
+.tabs{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:26px}
+.tab{padding:10px 16px;border-radius:3px;font-size:12px;font-weight:600;cursor:pointer;letter-spacing:1.1px;
+ text-transform:uppercase;border:1px solid var(--line);background:transparent;color:var(--ink3);transition:.22s;user-select:none}
+.tab:hover{border-color:var(--mauve);color:var(--mauve)}
+.tab.on{border-color:var(--blue);color:var(--blue);background:rgba(76,201,240,.07);box-shadow:0 0 18px rgba(76,201,240,.16)}
+.panel{background:var(--mid2);border:1px solid var(--line);padding:30px;border-radius:4px;position:relative}
+.panel::before{content:'';position:absolute;top:-1px;left:0;right:0;height:1px;
+ background:linear-gradient(90deg,transparent,var(--blue),var(--mauve),transparent)}
+.panel p{color:var(--ink2);font-size:16.5px;min-height:80px}
+.fit{margin-top:20px;padding-top:18px;border-top:1px solid var(--line);font-size:14px;color:var(--ink3)}
+.fit b{color:var(--blue);font-weight:600}
+.fade{animation:fin .4s ease}@keyframes fin{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+.card{background:var(--mid2);border:1px solid var(--line);padding:32px;border-radius:4px;position:relative}
+.card::before{content:'';position:absolute;top:-1px;left:0;right:0;height:1px;
+ background:linear-gradient(90deg,transparent,var(--blue),var(--mauve),transparent)}
+.pill{display:inline-block;padding:5px 12px;font-size:10.5px;font-weight:600;letter-spacing:1.4px;
+ margin:0 7px 7px 0;border:1px solid var(--line);color:var(--mauve);border-radius:2px}
+.vid{width:100%;border-radius:4px;margin-top:22px;border:1px solid var(--line);display:block;background:#0B0D2A;
+ box-shadow:0 0 40px rgba(76,201,240,.12)}
+.blk+.blk{margin-top:22px}
+.blk h4{font-size:12px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--blue);margin-bottom:9px}
+.blk p{font-size:15.6px;color:var(--ink2)}
+.det{margin-top:24px;padding-top:24px;border-top:1px solid var(--line)}
+
+.job{display:grid;grid-template-columns:1fr auto;gap:5px 22px;padding:24px 0;border-bottom:1px solid var(--line)}
+.job:last-child{border-bottom:0}
+.job .t{font-family:'Playfair Display',serif;font-weight:600;font-size:20px}
+.job .o{color:var(--mauve);font-size:13.5px;margin-top:3px;letter-spacing:.6px}
+.job .d{color:var(--ink3);font-size:12.5px;white-space:nowrap;text-align:right;letter-spacing:1px}
+.job .n{grid-column:1/-1;color:var(--ink2);font-size:15.2px;margin-top:11px}
+@media(max-width:600px){.job{grid-template-columns:1fr}.job .d{text-align:left;margin-top:4px}}
+
+.princ li{list-style:none;padding:20px 0;border-bottom:1px solid var(--line)}
+.princ li:last-child{border-bottom:0}
+.princ b{display:block;font-family:'Playfair Display',serif;font-size:19px;font-weight:600;margin-bottom:6px;color:var(--ink)}
+.princ span{color:var(--ink2);font-size:15.2px}
+
+.cgrid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(max-width:640px){.cgrid{grid-template-columns:1fr}}
+.cert{background:var(--mid);padding:17px 19px}
+.cert b{display:block;font-weight:500;font-size:14.5px;color:var(--ink)}
+.cert span{color:var(--ink3);font-size:12px;letter-spacing:.8px;text-transform:uppercase}
+
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:34px}
+@media(max-width:640px){.g2{grid-template-columns:1fr}}
+.kv b{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:2.4px;color:var(--mauve);margin-bottom:12px;font-weight:600}
+.kv span{color:var(--ink2);font-size:15.2px}
+footer{padding:60px 0 90px;color:var(--ink3);font-size:14.5px}
+</style></head><body>
+
+<header class="w">
+ <div class="rv"><div class="pw"><div class="ring"></div><img src="assets/arya.jpg" alt="Arya K. Ravi"></div></div>
+ <div class="rv">
+  <div class="loc">Bengaluru · India</div>
+  <h1 class="serif">Arya K. Ravi</h1>
+  <p class="tag">Psychology graduate turned product and programme professional.</p>
+ </div>
+ <p class="lede rv">I work at the point where a loose requirement has to become something a team can actually build — writing the spec, agreeing what the metric is, and staying with it through to what ships. Three years across product operations, technical programme management and AI training data, currently completing an MBA in AI for Business at BITS Pilani.</p>
+ <div class="links rv">
+  <a class="btn p" href="#roles">Resume</a>
+  <a class="btn" href="https://www.linkedin.com/in/akr246">LinkedIn</a>
+  <a class="btn" href="https://www.credly.com/users/arya-k-ravi">Credly</a>
+  <a class="btn" href="https://github.com/Akr246">GitHub</a>
+  <a class="btn" href="mailto:akr24698@gmail.com">Email</a>
+ </div>
+ <div class="avail rv"><span class="dot"></span> Open to Product Associate, Associate Product Manager, Product Analyst, Business Analyst and Associate Program Manager roles</div>
+ <div class="stats rv">
+  <div class="stat"><b data-c="3">0</b><span>years across product, programme &amp; AI data</span></div>
+  <div class="stat"><b data-c="500" data-s="+">0</b><span>stakeholders on an internal AI tool</span></div>
+  <div class="stat"><b data-c="10" data-s="+">0</b><span>cross-functional teams on one launch</span></div>
+  <div class="stat"><b data-c="20" data-s="%">0</b><span>efficiency gain via SQL automation</span></div>
+ </div>
+</header>
+
+<div class="w"><hr class="rule"></div>
+<section class="w rv" id="roles">
+ <h2>Hiring for a specific role?</h2>
+ <div class="tabs" id="tabs"></div>
+ <div class="panel"><div id="rp"></div></div>
+</section>
+
+<div class="w"><hr class="rule"></div>
+<section class="w rv">
+ <h2>Selected work</h2>
+ <div class="card">
+  <h3 class="serif">SpendLens</h3>
+  <div class="muted" style="font-size:13.5px;letter-spacing:.8px;margin-bottom:16px">Behavioural spend-intelligence web app · concept to live build</div>
+  <div><span class="pill">PRODUCT SPEC</span><span class="pill">REACT / TYPESCRIPT</span><span class="pill">DECISION ENGINES</span><span class="pill">SHIPPED</span></div>
+  <p class="muted" style="margin-top:18px">Most money apps tell you what you spent. This one classifies every rupee as essential or flexible, then gives an honest verdict on whether a stated financial goal is reachable — and three trade-offs drawn from the user's own spending when it isn't.</p>
+  <video class="vid" autoplay muted loop playsinline preload="metadata" poster="assets/architecture-poster.jpg" aria-label="Animated architecture of the decision system">
+   <source src="assets/architecture-motion.mp4" type="video/mp4"></video>
+  <div class="muted" style="font-size:12px;margin-top:10px;text-align:center;letter-spacing:1.2px;text-transform:uppercase">The layered decision architecture behind it</div>
+  <div class="det">
+   <div class="blk"><h4>What I did</h4><p>Wrote the requirements, defined the four-band classification model and the success metrics, then shipped it as a React and TypeScript application deployed through GitHub Actions using AI-assisted development. The PRD covers scope, metrics, competitive position, and the published research that argues against the product's own thesis.</p></div>
+   <div class="blk"><h4>Two decisions worth defending</h4>
+    <p><strong style="color:var(--ink);font-weight:600">Classification carries a confidence score.</strong> Anything below the threshold goes to a human review queue instead of rendering. A confident wrong answer costs more trust than an honest question, and unlike a missing answer you don't recover from it.</p>
+    <p style="margin-top:12px"><strong style="color:var(--ink);font-weight:600">A guardrail service sits between the engines and the interface.</strong> It blocks any recommendation touching an essential expense and can overrule every layer beneath it — deliberately separate code, because a guardrail that lives inside the thing it guards isn't a guardrail.</p></div>
+   <div class="blk"><h4>What I'd change</h4><p>The research I found while writing the PRD says category-split budgets and precise figures both increase spending. The current build does both. That's the first thing to fix, and finding it was more useful than any feature I could have added.</p></div>
+  </div>
+  <div class="links" style="margin-top:26px">
+   <a class="btn p" href="https://akr246.github.io/spendlens-ai-spend-intelligence/">Open the live app</a>
+   <a class="btn" href="https://github.com/Akr246/spendlens-ai-spend-intelligence">Read the code</a></div>
+ </div>
+ <div class="card" style="margin-top:22px">
+  <h3 class="serif">Process Modelling &amp; System Implementation</h3>
+  <div class="muted" style="font-size:13.5px;letter-spacing:.8px;margin-bottom:12px">Client onboarding blueprint</div>
+  <p class="muted">Turned business requirements into access-provisioning checklists and milestone-tracking dashboards. Automating the document handling cut processing time by 40%.</p></div>
+ <div class="card" style="margin-top:22px">
+  <h3 class="serif">Information Flow Optimisation</h3>
+  <div class="muted" style="font-size:13.5px;letter-spacing:.8px;margin-bottom:12px">LLM workflow for B2B communications</div>
+  <p class="muted">Designed a systemic workflow using LLMs to generate B2B communications, with data models tracking campaign metrics and response rates through automated CRM pipelines.</p></div>
+</section>
+
+<div class="w"><hr class="rule"></div>
+<section class="w rv">
+ <h2>Experience</h2>
+ <div class="job"><div><div class="t">AI Trainer</div><div class="o">Alignerr · Contract</div></div><div class="d">Apr 2025 – Present</div>
+  <div class="n">Annotating dental imaging used to train orthodontic treatment-planning models, working with clinicians and AI engineers to tighten guidelines where predictions were weakest.</div></div>
+ <div class="job"><div><div class="t">AI Data Evaluator &amp; Labeling Specialist</div><div class="o">TELUS International · Contract</div></div><div class="d">2023 · 2024–25</div>
+  <div class="n">Training datasets across image, text and numerical inputs using Labelbox, Scale AI and SageMaker Ground Truth. Rated AI-generated responses against domain guidelines and iterated labelling strategy with data scientists and QA.</div></div>
+ <div class="job"><div><div class="t">Technical Program Manager</div><div class="o">Align Technē</div></div><div class="d">Jul 2024 – Jan 2025</div>
+  <div class="n">Deployed an Azure OpenAI chatbot for 500+ stakeholders, cutting information retrieval from three minutes to seconds. Automated billing workflows from Snowflake into AWS S3 with SQL, improving operational efficiency by 20%. Ran the SAP master data migration and centralised data across 200+ materials.</div></div>
+ <div class="job"><div><div class="t">Trainee, Talent Transformation &amp; Leadership</div><div class="o">Annalect India · Omnicom Group</div></div><div class="d">Nov 2023 – Jun 2024</div>
+  <div class="n">Launched a ride-hailing product for the underage rider segment with 10+ cross-functional teams, driving a 10% order increase. Cut safety risk 30% using AI models validated through A/B testing. Built Tableau dashboards supporting 10% growth in market reach.</div></div>
+ <div class="job"><div><div class="t">Sales Operations</div><div class="o">Think &amp; Learn Pvt Ltd</div></div><div class="d">Jun 2022 – Jun 2023</div>
+  <div class="n">Product expert across backend academic operations and customer lifecycle. Analysed engagement data to find drop-off points and fed findings back into platform usability.</div></div>
+</section>
+
+<div class="w"><hr class="rule"></div>
+<section class="w rv">
+ <h2>How I tend to work</h2>
+ <ul class="princ">
+  <li><b class="serif">Write the spec before the ticket.</b><span>Most disagreements are far cheaper to have on paper than in week three of a sprint.</span></li>
+  <li><b class="serif">Attach a number to the outcome.</b><span>And say plainly when there isn't one, rather than reaching for a proxy that flatters.</span></li>
+  <li><b class="serif">Design for the case where the system doesn't know.</b><span>That's usually where trust is won or lost, and it's the part that gets left out of the diagram.</span></li>
+  <li><b class="serif">Include what argues against you.</b><span>A document that carries only supporting evidence isn't analysis, and the reader can tell.</span></li>
+ </ul>
+</section>
+
+<div class="w"><hr class="rule"></div>
+<section class="w rv">
+ <h2>Certifications</h2>
+ <div class="cgrid">
+  <div class="cert"><b>Google Data Analytics</b><span>Coursera</span></div>
+  <div class="cert"><b>Develop GenAI Apps with Gemini &amp; Streamlit</b><span>Google Cloud</span></div>
+  <div class="cert"><b>Introduction to Vertex AI Studio</b><span>Google Cloud</span></div>
+  <div class="cert"><b>Vector Search and Embeddings</b><span>Google Cloud</span></div>
+  <div class="cert"><b>MLOps for Generative AI</b><span>Google Cloud</span></div>
+  <div class="cert"><b>Multimodal RAG with Gemini</b><span>Google Cloud</span></div>
+  <div class="cert"><b>Key Technology Foundations for GenAI</b><span>IBM</span></div>
+  <div class="cert"><b>Generative AI Overview for Project Managers</b><span>PMI</span></div>
+ </div>
+ <p style="margin-top:18px;font-size:14px;color:var(--ink3)">Also AI &amp; Machine Learning, Indian Council of Technical Research (ID AZ2566800). Verify every badge at <a href="https://www.credly.com/users/arya-k-ravi">credly.com/users/arya-k-ravi</a>.</p>
+</section>
+
+<div class="w"><hr class="rule"></div>
+<section class="w rv">
+ <h2>Background</h2>
+ <div class="g2">
+  <div class="kv"><b>Education</b><span><strong style="color:var(--ink);font-weight:500">MBA, AI for Business</strong> — BITS Pilani, in progress<br><strong style="color:var(--ink);font-weight:500">MSc Psychology</strong> — St. Agnes Centre for PG Studies &amp; Research<br><strong style="color:var(--ink);font-weight:500">BSc Psychology</strong> — Sahrudaya College of Advanced Studies</span></div>
+  <div class="kv"><b>Toolkit</b><span>SQL · Python · Tableau · Snowflake · AWS S3 · Azure OpenAI · SAP BW · Labelbox · Jira · Confluence · Salesforce · Figma</span></div>
+ </div>
+</section>
+
+<div class="w"><hr class="rule"></div>
+<footer class="w">
+ <p style="font-size:15.5px"><strong style="color:var(--ink);font-weight:600">Get in touch</strong> — <a href="mailto:akr24698@gmail.com">akr24698@gmail.com</a> · <a href="https://www.linkedin.com/in/akr246">LinkedIn</a> · <a href="https://www.credly.com/users/arya-k-ravi">Credly</a> · <a href="https://github.com/Akr246">GitHub</a></p>
+ <p style="margin-top:12px">Happy to talk about product, analysis, or anything on this page.</p>
+</footer>
+
+<script>
+const ROLES=[
+ {k:'Product Associate',f:'Arya-K-Ravi-Product-Associate.pdf',
+  p:"I have launched a product with ten cross-functional teams, written the spec and the success metrics for one I built end to end, and spent a year close to how AI systems actually get trained. The part I am best at is the messy middle — turning a vague ask into something engineering can start on Monday.",
+  fit:"Leads with the Annalect product launch and the SpendLens build."},
+ {k:'Associate Product Manager',f:'Arya-K-Ravi-Associate-Product-Manager.pdf',
+  p:"I took a product from problem statement to a live build — requirements, classification model, success metrics, shipped — and launched a segment product with ten cross-functional teams before that. I care most about what a system does when it does not know the answer.",
+  fit:"Leads with product ownership, launch and the decisions behind SpendLens."},
+ {k:'Product Analyst',f:'Arya-K-Ravi-Product-Analyst.pdf',
+  p:"I built the Tableau reporting behind a go-to-market strategy, ran the A/B testing that validated a 30% risk reduction, and automated a billing pipeline out of SAP into AWS with SQL. I am comfortable defining the metric as well as measuring it.",
+  fit:"Leads with dashboards, experiment design and the SQL pipeline work."},
+ {k:'Business Analyst',f:'Arya-K-Ravi-Business-Analyst.pdf',
+  p:"I ran an SAP master data migration, automated a billing workflow that improved operational efficiency by 20%, and rebuilt standard operating procedures across functional units. Requirements into documented, repeatable process is the work I keep coming back to.",
+  fit:"Leads with the Align Technē systems and process work."},
+ {k:'Associate Program Manager',f:'Arya-K-Ravi-Associate-Program-Manager.pdf',
+  p:"I ran an SAP master data migration end to end, deployed an internal AI tool to 500+ stakeholders, and coordinated a product launch across ten cross-functional teams. I am good at holding a plan together when the work spans teams that do not otherwise talk.",
+  fit:"Leads with programme delivery, migration and cross-team coordination."}];
+const tabs=document.getElementById('tabs'),rp=document.getElementById('rp');
+function draw(i){[...tabs.children].forEach((t,j)=>t.classList.toggle('on',i===j));const r=ROLES[i];
+ rp.innerHTML='<div class="fade"><p>'+r.p+'</p><div class="links" style="margin-top:8px">'+
+ '<a class="btn p" href="resumes/'+r.f+'">Download '+r.k+' resume</a>'+
+ '<a class="btn" href="resumes/'+r.f+'" target="_blank">Open in browser</a></div>'+
+ '<div class="fit"><b>How this version differs:</b> '+r.fit+' Same facts throughout — only the emphasis changes.</div></div>';}
+ROLES.forEach((r,i)=>{const b=document.createElement('div');b.className='tab';b.textContent=r.k;b.onclick=()=>draw(i);tabs.appendChild(b)});
+draw(0);
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.06});
+document.querySelectorAll('.rv').forEach((el,i)=>{el.style.transitionDelay=(Math.min(i,4)*80)+'ms';io.observe(el)});
+const cio=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;cio.unobserve(e.target);
+ const el=e.target,to=+el.dataset.c,sfx=el.dataset.s||'';let t0=null;
+ const step=ts=>{if(!t0)t0=ts;const p=Math.min((ts-t0)/1200,1);
+ el.textContent=Math.round(to*(1-Math.pow(1-p,3)))+sfx;if(p<1)requestAnimationFrame(step)};
+ requestAnimationFrame(step)}),{threshold:.5});
+document.querySelectorAll('.stat b').forEach(el=>cio.observe(el));
+</script></body></html>
