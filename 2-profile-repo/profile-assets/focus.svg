@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="272" viewBox="0 0 1200 272" role="img">
+<defs>
+<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0" stop-color="#0A1030"/><stop offset="42%" stop-color="#070C24"/><stop offset="100%" stop-color="#050818"/>
+</linearGradient>
+<linearGradient id="brd" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0" stop-color="#4CC9F0" stop-opacity=".85"/><stop offset="45%" stop-color="#C77DFF" stop-opacity=".7"/><stop offset="100%" stop-color="#C77DFF" stop-opacity=".12"/>
+</linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0" stop-color="#4CC9F0"/><stop offset="55%" stop-color="#8B7BFF"/><stop offset="100%" stop-color="#C77DFF"/>
+</linearGradient>
+<radialGradient id="bloomA" cx="18%" cy="8%" r="55%">
+ <stop offset="0" stop-color="#4CC9F0" stop-opacity=".16"/><stop offset="1" stop-color="#4CC9F0" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="bloomB" cx="88%" cy="95%" r="60%">
+ <stop offset="0" stop-color="#C77DFF" stop-opacity=".18"/><stop offset="1" stop-color="#C77DFF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect x="1.5" y="1.5" width="1197" height="269" rx="20" fill="url(#bgg)"/>
+<rect x="1.5" y="1.5" width="1197" height="269" rx="20" fill="url(#bloomA)"/>
+<rect x="1.5" y="1.5" width="1197" height="269" rx="20" fill="url(#bloomB)"/>
+<g transform="translate(28,26) scale(0.72)" fill="none" stroke="#C77DFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></g>
+<text x="54" y="42" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.6" fill="#C77DFF">FOCUS AREAS</text><rect x="28" y="74" width="159" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="43" y="96" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Product strategy</text><rect x="196.8" y="74" width="207" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="211.8" y="96" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Requirements gathering</text><rect x="413.90000000000003" y="74" width="167" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="428.90000000000003" y="96" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Product analytics</text><rect x="590.75" y="74" width="280" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="605.75" y="96" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">A/B testing &amp; experiment design</text><rect x="880.3" y="74" width="247" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="895.3" y="96" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Cross-functional leadership</text><rect x="28" y="120" width="207" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="43" y="142" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Stakeholder management</text><rect x="245.10000000000002" y="120" width="159" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="260.1" y="142" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Roadmap planning</text><rect x="413.90000000000003" y="120" width="143" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="428.90000000000003" y="142" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">KPI definition</text><rect x="566.6" y="120" width="167" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="581.6" y="142" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Process modelling</text><rect x="743.45" y="120" width="255" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="758.45" y="142" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Business process improvement</text><rect x="28" y="166" width="54" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="43" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">SQL</text><rect x="92.15" y="166" width="78" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="107.15" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Python</text><rect x="180.45000000000002" y="166" width="86" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="195.45000000000002" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Tableau</text><rect x="276.8" y="166" width="135" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="291.8" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Data analysis</text><rect x="421.45000000000005" y="166" width="191" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="436.45000000000005" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Programme management</text><rect x="622.45" y="166" width="70" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="637.45" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Agile</text><rect x="702.7" y="166" width="127" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="717.7" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Go-to-market</text><rect x="839.3000000000001" y="166" width="135" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="854.3000000000001" y="188" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">User research</text><rect x="28" y="212" width="199" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="43" y="234" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Behavioural economics</text><rect x="237.05" y="212" width="199" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="252.05" y="234" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">AI product management</text><rect x="446.1" y="212" width="231" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="461.1" y="234" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Human-in-the-loop systems</text><rect x="687.35" y="212" width="119" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="702.35" y="234" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">PRD writing</text><rect x="815.9000000000001" y="212" width="223" height="34" rx="11" fill="#101A44" fill-opacity=".8" stroke="#33407A" stroke-opacity=".8"/>
+<text x="830.9000000000001" y="234" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13.5" fill="#CBD5F0">Requirement traceability</text>
+<rect x="1.5" y="1.5" width="1197" height="269" rx="20" fill="none" stroke="url(#brd)" stroke-width="3"/>
+</svg>

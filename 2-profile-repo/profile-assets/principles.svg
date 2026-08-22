@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="412" viewBox="0 0 1200 412" role="img">
+<defs>
+<linearGradient id="bgg" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0" stop-color="#0A1030"/><stop offset="42%" stop-color="#070C24"/><stop offset="100%" stop-color="#050818"/>
+</linearGradient>
+<linearGradient id="brd" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0" stop-color="#4CC9F0" stop-opacity=".85"/><stop offset="45%" stop-color="#C77DFF" stop-opacity=".7"/><stop offset="100%" stop-color="#C77DFF" stop-opacity=".12"/>
+</linearGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+ <stop offset="0" stop-color="#4CC9F0"/><stop offset="55%" stop-color="#8B7BFF"/><stop offset="100%" stop-color="#C77DFF"/>
+</linearGradient>
+<radialGradient id="bloomA" cx="18%" cy="8%" r="55%">
+ <stop offset="0" stop-color="#4CC9F0" stop-opacity=".16"/><stop offset="1" stop-color="#4CC9F0" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="bloomB" cx="88%" cy="95%" r="60%">
+ <stop offset="0" stop-color="#C77DFF" stop-opacity=".18"/><stop offset="1" stop-color="#C77DFF" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect x="1.5" y="1.5" width="1197" height="409" rx="20" fill="url(#bgg)"/>
+<rect x="1.5" y="1.5" width="1197" height="409" rx="20" fill="url(#bloomA)"/>
+<rect x="1.5" y="1.5" width="1197" height="409" rx="20" fill="url(#bloomB)"/>
+<g transform="translate(28,24) scale(0.72)" fill="none" stroke="#4CC9F0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4"/></g>
+<text x="54" y="40" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.6" fill="#4CC9F0">HOW I TEND TO WORK</text><rect x="26" y="66" width="1148" height="70" rx="14" fill="#0A1030" fill-opacity=".7" stroke="#2A3566" stroke-opacity=".6"/>
+<rect x="26" y="66" width="4" height="70" rx="2" fill="#4CC9F0" fill-opacity=".8"/>
+<g transform="translate(48,79) scale(0.92)" fill="none" stroke="#4CC9F0" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 013 3L7.5 18.5 3 20l1.5-4.5z"/></g>
+<text x="86" y="96" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="700" fill="#E8ECF8">Write the spec before the ticket.</text>
+<text x="86" y="119" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14.5" fill="#8C99BE">Most disagreements are far cheaper to have on paper than in week three of a sprint.</text><rect x="26" y="150" width="1148" height="70" rx="14" fill="#0A1030" fill-opacity=".7" stroke="#2A3566" stroke-opacity=".6"/>
+<rect x="26" y="150" width="4" height="70" rx="2" fill="#C77DFF" fill-opacity=".8"/>
+<g transform="translate(48,163) scale(0.92)" fill="none" stroke="#C77DFF" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 15l4-5 3 3 5-7"/></g>
+<text x="86" y="180" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="700" fill="#E8ECF8">Attach a number to the outcome.</text>
+<text x="86" y="203" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14.5" fill="#8C99BE">And say plainly when there isn’t one, rather than reaching for a proxy that flatters.</text><rect x="26" y="234" width="1148" height="70" rx="14" fill="#0A1030" fill-opacity=".7" stroke="#2A3566" stroke-opacity=".6"/>
+<rect x="26" y="234" width="4" height="70" rx="2" fill="#4CC9F0" fill-opacity=".8"/>
+<g transform="translate(48,247) scale(0.92)" fill="none" stroke="#4CC9F0" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.4 9.2a2.7 2.7 0 015.2.9c0 1.8-2.6 2.4-2.6 4"/><path d="M12 17.2h.01"/></g>
+<text x="86" y="264" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="700" fill="#E8ECF8">Design for the case where the system doesn’t know.</text>
+<text x="86" y="287" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14.5" fill="#8C99BE">That is usually where trust is won or lost, and it is the part left out of the diagram.</text><rect x="26" y="318" width="1148" height="70" rx="14" fill="#0A1030" fill-opacity=".7" stroke="#2A3566" stroke-opacity=".6"/>
+<rect x="26" y="318" width="4" height="70" rx="2" fill="#C77DFF" fill-opacity=".8"/>
+<g transform="translate(48,331) scale(0.92)" fill="none" stroke="#C77DFF" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 6h10"/><path d="M4 11l3-5 3 5a3 3 0 01-6 0zM14 11l3-5 3 5a3 3 0 01-6 0z"/><path d="M7 21h10"/></g>
+<text x="86" y="348" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="16.5" font-weight="700" fill="#E8ECF8">Include what argues against you.</text>
+<text x="86" y="371" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif" font-size="14.5" fill="#8C99BE">A document that carries only supporting evidence isn’t analysis, and the reader can tell.</text>
+<rect x="1.5" y="1.5" width="1197" height="409" rx="20" fill="none" stroke="url(#brd)" stroke-width="3"/>
+</svg>

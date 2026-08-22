@@ -1,131 +1,183 @@
-# START HERE — GitHub profile upgrade
+# START HERE — the GitHub **profile view**, end to end
 
-Three repositories to update. Browser only. About 25 minutes.
+The thing you land on at **github.com/Akr246**. Browser only, no terminal, about 15 minutes.
 
 ```
-1-portfolio-repo/       →  Akr246.github.io               (site + case studies + PROJECTS.md)
-2-profile-repo/         →  Akr246                         (profile README)
-3-spendlens-repo/       →  spendlens-ai-spend-intelligence (replaces its README)
+2-profile-repo/         →  repo: Akr246              ← START HERE, this is the profile view
+   README.md
+   profile-assets/      ← new folder: the dark panels
+1-portfolio-repo/       →  repo: Akr246.github.io    (the website — already updated last round)
+3-spendlens-repo/       →  repo: spendlens-ai-spend-intelligence
 resumes-to-apply-with/  →  keep on your computer
+preview/                →  what it will look like, light and dark theme
 ```
 
-**What changed in this version**
+---
 
-- New **case studies page** — three deep dives with the reasoning, the trade-offs, and one thing that went wrong
-- **"Actively interviewing"** status on the hero
-- **Focus areas** keyword band — real ATS terms, visible rather than hidden
-- **"Why React and TypeScript"** section added to the SpendLens card
-- **PROJECTS.md** — a proper project index in the portfolio repo
-- **Rewritten SpendLens README** — problem, role, architecture, decisions, what I'd change
-- **Last updated** stamp in the footer
+## First, the one thing GitHub won't let you do
+
+**GitHub controls the profile page background.** There is no setting, anywhere, that changes it —
+it is white in light theme and `#0d1117` in dark theme, and it follows *the visitor's* preference,
+not yours. Anyone who tells you otherwise is selling something.
+
+So the way you get a website look is to **bring your own background inside the page.** Your README
+now renders five full-width dark panels — each one an image carrying its own midnight-blue
+background, its own gradient border, and its own icons. The GitHub page around them stays
+whatever colour the visitor set, and your panels sit on top of it looking deliberate in both.
+
+Open `preview/profile-view-light-theme.png` and `preview/profile-view-dark-theme.png` — same
+README, both GitHub themes. That's the effect.
 
 ---
 
-## PART 1 · Portfolio repo — `Akr246.github.io`
+## What's in the new profile view
 
-**Add file → Upload files.** Drag in **all five items** from `1-portfolio-repo`:
+| Panel | What it carries |
+|---|---|
+| 🖼️ **hero** | Your photo inside a blue-to-mauve ring, name in Playfair-style serif, tagline, location with a pin icon, and three pills — MBA · Actively interviewing · Product/Analysis/Programme |
+| 📊 **stats** | Four tiles with icon headers: 3 years · 500+ stakeholders · 10+ teams · 20% efficiency gain |
+| 🔍 **focus** | 23 focus-area chips — the ATS keywords, visible rather than hidden |
+| ⭐ **work** | SpendLens as the headline card, plus the two case-study cards |
+| 🎯 **principles** | The four things about how you work, each on its own coloured-edge row |
 
-- `index.html` *(replaces the old one)*
-- `case-studies.html` *(new)*
-- `PROJECTS.md` *(new)*
-- `assets` folder
-- `resumes` folder
+Around the panels, still as real searchable text: badge buttons for Portfolio · Case Studies ·
+LinkedIn · Credly · Email · Live app, five role-tagged resume download badges, an icon-led
+experience table, twenty technology badges, education and certifications side by side, and
+GitHub stats cards themed to the same palette.
 
-**Commit changes.**
-
-Uploading a file with the same name replaces it — that is how `index.html` updates.
-
-**Check:** open `https://akr246.github.io` and click **Case studies** in the hero. It should
-load the new page. Also confirm the **Focus areas** band appears under the four numbers.
-
-> If the folders do not come across, upload `assets` and `resumes` separately. This is the
-> step that has failed before.
+Every panel ships twice — `.svg` (what the README uses: crisp at any size, ~28 KB) and `.png`
+(a fallback, in case an SVG ever refuses to render). You don't need to do anything with the PNGs.
 
 ---
 
-## PART 2 · Profile repo — `Akr246`
+## PART 1 · The profile view — repo `Akr246`
 
-Open `README.md` → **pencil icon** → select all, delete → paste `2-profile-repo/README.md`
+> This repo has the same name as your username. That's what makes it the profile view.
+> If it doesn't exist yet: **New repository** → name it exactly `Akr246` → tick
+> **Add a README file** → **Create repository**.
+
+### Step 1 — upload the panels folder
+
+1. Go to **github.com/Akr246/Akr246**
+2. **Add file → Upload files**
+3. Drag the whole **`profile-assets`** folder from `2-profile-repo` into the drop area
+4. Commit message: `Add profile panels`
+5. **Commit changes**
+
+**Check before moving on:** the repo file list should now show a `profile-assets` folder, and
+opening it should show **10 files** (5 `.svg` and 5 `.png`). If you see fewer, or no folder at
+all, the drag didn't take — try again by dragging the files themselves rather than the folder,
+then rename the path in the upload box to `profile-assets/`.
+
+> This step has to be **first**. If you paste the README before the images exist, you'll get five
+> broken-image icons and think it's broken. It isn't — it just can't find the pictures yet.
+
+### Step 2 — paste the README
+
+1. Still in `github.com/Akr246`, click **`README.md`**
+2. Click the **pencil icon** (top right of the file)
+3. Click inside the text, select all *(Ctrl+A / Cmd+A)*, delete
+4. Open `2-profile-repo/README.md` in Notepad or TextEdit, select all, copy
+5. Paste it into the GitHub editor
+6. Commit message: `Iconified profile view with dark panels`
+7. **Commit changes**
+
+### Step 3 — look at it
+
+Go to **github.com/Akr246**. You should see the hero panel first, then the badge row, then the
+stat tiles.
+
+**If a panel shows as a broken image:** give it 30 seconds and hard-refresh *(Ctrl+Shift+R)* —
+GitHub caches images through its own proxy and the very first load can miss. If it's still broken
+after that, the `profile-assets` folder didn't upload; redo Step 1.
+
+**If you'd rather use the PNGs:** in the README, change every `./profile-assets/hero.svg` to
+`./profile-assets/hero.png` — same for `stats`, `focus`, `work`, `principles`. Five edits.
+
+---
+
+## PART 2 · Website — repo `Akr246.github.io`
+
+Unchanged from last round. If you haven't uploaded it yet:
+
+1. **Add file → Upload files**
+2. Drag in all five items from `1-portfolio-repo`: `index.html`, `case-studies.html`,
+   `PROJECTS.md`, the `assets` folder, the `resumes` folder
+3. **Commit changes**
+
+> If the folders don't come across, upload the three files first and commit, then do a second
+> upload with only `assets`, and a third with only `resumes`.
+
+⚠️ **Before you publish this one:** `case-studies.html` still has three purple "Fill this in"
+boxes at lines 132, 137 and 161 — the Align Technē automation specifics, one honest thing you'd
+do differently, and the Annalect A/B test metric. Fill them or delete the `<div>` blocks.
+
+---
+
+## PART 3 · SpendLens — repo `spendlens-ai-spend-intelligence`
+
+Open its `README.md` → **pencil icon** → select all, delete → paste `3-spendlens-repo/README.md`
 → **Commit changes**.
 
-**Check:** `github.com/Akr246` now shows the Focus areas line and links to Case studies and
-PROJECTS.md.
+---
+
+## PART 4 · The profile view settings GitHub *does* let you change
+
+These are on the profile page itself, not in a repo — and they're what most people forget.
+
+1. **Bio and links.** Click your avatar (top right) → **Your profile** → **Edit profile**.
+   - **Bio:** `Product · Business analysis · Programme management. MBA AI for Business @ BITS Pilani. Building SpendLens.`
+   - **Location:** `Bengaluru, India`
+   - **Website:** `https://akr246.github.io`
+   - **Social links:** LinkedIn `https://www.linkedin.com/in/akr246`, Credly `https://www.credly.com/users/arya-k-ravi`
+   - Tick **Available for hire** — it puts a badge on your avatar and surfaces you in GitHub Jobs search.
+
+2. **Pin your repos.** On the profile page, **Customize your pins** → pin
+   `spendlens-ai-spend-intelligence` first, `Akr246.github.io` second. Pinned repos appear
+   immediately under your README, so their descriptions are read as part of the profile.
+
+3. **Repo descriptions.** On each repo, click the ⚙️ beside *About*:
+   - `Akr246.github.io` → `Portfolio — product, analysis and programme work. Case studies and role-specific resumes.` · website `https://akr246.github.io`
+   - `spendlens-ai-spend-intelligence` → `Behavioural spend-intelligence web app. React + TypeScript, six decision engines, fully client-side.` · website `https://akr246.github.io/spendlens-ai-spend-intelligence/`
+
+4. **Topics.** On both repos, add: `product-management`, `business-analysis`,
+   `product-analytics`, `react`, `typescript`, `portfolio`.
+
+5. **Profile photo.** Use the same headshot as the hero panel, so the GitHub avatar and the
+   panel match. Edit profile → click the avatar → upload `1-portfolio-repo/assets/arya.jpg`.
+
+6. **Make your Credly profile public** — Credly → Settings → Privacy. Right now the Credly
+   badge on your site and profile goes to a page a recruiter can't open.
 
 ---
 
-## PART 3 · SpendLens repo — `spendlens-ai-spend-intelligence`
+## The order that avoids every problem
 
-Open its `README.md` → **pencil icon** → select all, delete → paste
-`3-spendlens-repo/README.md` → **Commit changes**.
-
-This one matters more than it looks. Anyone who clicks through from your portfolio lands
-here, and the old README was written before the case study existed.
-
----
-
-## PART 4 · Two things only you can finish
-
-The case studies page has **three `Fill this in` boxes** in mauve. They are in case studies
-two and three — the Align Technē automation and the Annalect A/B test.
-
-I wrote those two from your LinkedIn, which gives the outcome but not the working. The boxes
-ask for the detail only you have:
-
-- How often the billing cycle ran, and how long extraction took before and after
-- Whether the 20% was measured on time, cost, or error rate
-- What the A/B test's primary metric was and roughly how long it ran
-- One honest "what I'd do differently" for each
-
-**Edit them in `case-studies.html`** — search for `class="fill"`, replace the text between
-the `<div>` tags, commit. Or delete the box entirely if you would rather leave the section short.
-
-**Do not publish those two case studies with the boxes still visible.** A recruiter reading
-"Fill this in" is worse than a shorter case study. Either complete them or remove the boxes.
-
----
-
-## PART 5 · Profile settings, if not already done
-
-**github.com/Akr246 → Edit profile**
-
-Bio:
 ```
-Psychology → product. I turn loose requirements into things teams can build. Ex-TPM @ Align Technē. MBA in AI for Business, in progress. Open to Product / BA / APM roles.
+1.  Upload profile-assets/          →  repo Akr246
+2.  Paste README.md                 →  repo Akr246
+3.  Hard-refresh github.com/Akr246  →  confirm five panels render
+4.  Edit profile: bio, links, available-for-hire
+5.  Customize your pins
+6.  Repo descriptions + topics
+7.  Fill the three boxes in case-studies.html, then upload 1-portfolio-repo
+8.  Paste the SpendLens README
+9.  Make Credly public
 ```
 
-Website: `https://akr246.github.io` · Location: `Bengaluru, India` · Company: Alignerr or blank
+---
 
-**Customize your pins** → tick `spendlens-ai-spend-intelligence`, untick `testrepo`.
+## Still open — worth fixing
+
+1. **Employer name.** The panels, site and resumes all say **Align Technē**. If the real spelling
+   differs, tell me and I'll regenerate everything in one pass — the name is baked into the
+   images, so this is not a find-and-replace you can do yourself.
+2. **LinkedIn vs resume.** LinkedIn says *Annalect India* and MBA *April 2026*; the resumes say
+   *Annalect India (Omnicom Group)* and *in progress*. Recruiters compare the two.
+3. **The three `fill` boxes** in `case-studies.html`.
 
 ---
 
-## Final check
-
-- [ ] akr246.github.io loads and the **Case studies** button works
-- [ ] Focus areas band visible under the stats
-- [ ] "Actively interviewing" shows in the hero
-- [ ] SpendLens repo README is the new one
-- [ ] PROJECTS.md opens from the profile README
-- [ ] **No `Fill this in` boxes remain visible on the published case studies page**
-- [ ] Open the site on your phone
-
----
-
-## What I did not build, and why
-
-The advice you pasted suggested several things I have deliberately left out:
-
-**Press mentions, speaking engagements, published articles, LinkedIn recommendations,
-open-source contributions.** You do not have these yet. Adding them would be inventing a
-record, which is the same problem as the sixteen projects — and these are all trivially
-checkable.
-
-**Star counts on repos.** Yours are at zero. Displaying that number draws attention to it.
-
-**A Tableau dashboard link.** You built dashboards at Annalect, but that work belongs to
-them. Do not publish it. If you want a public dashboard, build one on open data — that is
-project 2 in the briefs document.
-
-Three of those become available the moment you finish a project or two: an article about
-the behavioural teardown, a public dashboard from the review-mining project, and a real
-open-source repo. That is the honest route to the same outcome.
+*The panels are generated images, so any wording change inside them needs a regenerate — ask and
+you'll get a new `profile-assets` folder to drop in. Everything outside the panels is plain
+markdown you can edit yourself in the GitHub editor.*
