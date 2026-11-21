@@ -1,8 +1,8 @@
 [![Arya K. Ravi — The Series. Psychology, product and responsible AI. Open the portfolio.](./profile-assets/series-cover.webp)](https://akr246.github.io/series/)
 
-**Open to Associate Product Manager and Program Manager roles**, especially on teams building AI products. I’m based in Bengaluru, India and open to remote work.
+**Open to Associate Product Manager and Program Manager roles** in Bengaluru, India, or remotely. I’m particularly interested in teams building AI products.
 
-I’m **Arya K. Ravi**, a former Technical Program Manager with an MSc in Psychology. I’m pursuing an MBA in AI for Business at BITS Pilani. My interest in AI governance starts with a product question I like working on. When a system is unsure, who gets to review its decision, and what information do they need?
+I’m **Arya K. Ravi**, a former Technical Program Manager with an MSc in Psychology, now pursuing an MBA in AI for Business at BITS Pilani. In AI governance, I’m interested in how people can see why a system made a decision and correct it when it gets one wrong.
 
 [**Explore my portfolio**](https://akr246.github.io/series/) · [**Product résumé (PDF)**](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Product-Manager.pdf) · [**Program résumé (PDF)**](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Program-Manager.pdf) · [**Email me**](mailto:akr24698@gmail.com)
 
