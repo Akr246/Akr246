@@ -1,66 +1,37 @@
-## Arya K. Ravi
+[![Arya K. Ravi — The Series. Psychology, product and responsible AI. Open the portfolio.](./profile-assets/series-cover.webp)](https://akr246.github.io/series/)
 
-**Product and business analysis · Bengaluru, India**
+**Open to Associate Product Manager and Program Manager roles** in Bengaluru or on remote teams.
 
-Psychology graduate turned product and programme professional. I work at the point where a loose requirement has to become something a team can actually build — writing the spec, agreeing what the metric is, and staying with it through to what ships. Three years across product operations, technical programme management and AI training data, and currently completing an MBA in AI for Business at BITS Pilani.
+I’m **Arya K. Ravi**, a former Technical Program Manager with an MSc in Psychology. I’m pursuing an MBA in AI for Business at BITS Pilani. The question that draws me to responsible AI is when a product should make a decision and when it should ask the person using it.
 
-Open to **Product Associate**, **Product Analyst**, **Business Analyst** and **Associate Program Manager** roles.
+[**Explore my portfolio**](https://akr246.github.io/series/) · [**Product résumé (PDF)**](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Product-Manager.pdf) · [**Program résumé (PDF)**](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Program-Manager.pdf) · [**Email me**](mailto:akr24698@gmail.com)
 
-[**Portfolio**](https://akr246.github.io) · [**LinkedIn**](https://www.linkedin.com/in/akr246) · [**Credly**](https://www.credly.com/users/arya-k-ravi) · akr24698@gmail.com
+## SpendLens
 
-**Resume, by role** — [Product Associate](https://akr246.github.io/resumes/Arya-K-Ravi-Product-Associate.pdf) · [Associate Product Manager](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Product-Manager.pdf) · [Product Analyst](https://akr246.github.io/resumes/Arya-K-Ravi-Product-Analyst.pdf) · [Business Analyst](https://akr246.github.io/resumes/Arya-K-Ravi-Business-Analyst.pdf) · [Associate Program Manager](https://akr246.github.io/resumes/Arya-K-Ravi-Associate-Program-Manager.pdf)
+I wrote the product requirements and built this budgeting prototype for Indian households in React and TypeScript. When its rules can’t confidently classify a purchase, it asks the user to review it. A separate check screens each savings suggestion for cuts to essentials. Select the example below to see the original demo dashboard.
 
----
+[![A sample SpendLens household. A proposed ₹880 cut to groceries was blocked because groceries are essential.](./profile-assets/spendlens-decision.svg)](https://github.com/Akr246/spendlens-ai-spend-intelligence/blob/main/docs/dashboard.png)
 
-### What I've been building
+[**Try a sample household**](https://akr246.github.io/spendlens-ai-spend-intelligence/#/app) · [**Read the product case study**](https://akr246.github.io/spendlens-ai-spend-intelligence/#/case-study) · [**Inspect the guardrail code**](https://github.com/Akr246/spendlens-ai-spend-intelligence/blob/main/src/engine/nudges.ts)
 
-#### [SpendLens](https://akr246.github.io/spendlens-ai-spend-intelligence/) — behavioural spend-intelligence web app
+## Product analytics and strategy
 
-Took a product from problem statement to a live build: wrote the requirements, defined the classification model and the success metrics, then shipped it as a React / TypeScript app deployed through GitHub Actions.
+- **[Product Analytics Dashboard](https://akr246.github.io/series/lab/product-analytics/)** — Run the sample to see how conversion is calculated. Three people viewed the product and one also made a purchase, giving 33.3% viewer-to-buyer conversion. It’s one of [50 browser-based prototypes in Project Lab](https://akr246.github.io/series/lab/).
+- **[LEGO customer lifecycle strategy (PDF)](https://akr246.github.io/series/assets/lego-strategy.pdf)** — For this MBA case study, I proposed a loyalty programme that changes as builders grow and a two-market pilot to test it.
 
-Six decision engines sit behind it. Two are worth calling out. Classification carries a confidence score, and anything below the threshold goes to a human review queue instead of rendering — because a confident wrong answer costs more trust than an honest question, and unlike a missing answer you don't recover from it. A separate guardrail service blocks any recommendation that touches an essential expense, and it can overrule every layer beneath it.
+## Experience
 
-The PRD covers scope, metrics, competitive position — and the published research that argues against the product's own thesis, which turned out to be the most useful section to write.
+- **CHRIST (Deemed to be University)** — I coordinate academic workflows and support programme data quality and reporting in Bengaluru.
+- **Align Technē** — As a Technical Program Manager, I scoped requirements for an AI workflow prototype and coordinated delivery across distributed teams.
+- **Annalect India (Omnicom)** — I used SQL and Tableau to investigate onboarding friction and prioritise improvements.
 
-**[Live app](https://akr246.github.io/spendlens-ai-spend-intelligence/)** · **[Code](https://github.com/Akr246/spendlens-ai-spend-intelligence)**
+I also have experience in AI data evaluation and annotation with TELUS International and Alignerr, and in customer-facing product work at Think & Learn.
 
----
+**Tools I use** include SQL, Python, Tableau, Salesforce, Jira, React and TypeScript. [LinkedIn](https://www.linkedin.com/in/akr246/) · [Credentials on Credly](https://www.credly.com/users/arya-k-ravi)
 
-### How I tend to work
+<details>
+<summary>Additional role-specific résumés (PDF)</summary>
 
-- **Write the spec before the ticket.** Most disagreements are far cheaper to have on paper than in week three of a sprint.
-- **Attach a number to the outcome** — and say plainly when there isn't one rather than reaching for a proxy that flatters.
-- **Design for the case where the system doesn't know.** That's usually where trust is won or lost, and it's the part that gets left out of the diagram.
-- **Include what argues against you.** A document that carries only supporting evidence isn't analysis, and the reader can tell.
+[Product Associate](https://akr246.github.io/resumes/Arya-K-Ravi-Product-Associate.pdf) · [Product Analyst](https://akr246.github.io/resumes/Arya-K-Ravi-Product-Analyst.pdf) · [Business Analyst](https://akr246.github.io/resumes/Arya-K-Ravi-Business-Analyst.pdf)
 
----
-
-### Toolkit
-
-| | |
-|---|---|
-| **Analysis** | SQL · Python · Tableau · process and data modelling · KPI definition |
-| **Product & delivery** | Requirements gathering · PRD writing · Jira · Confluence · Salesforce · SOP documentation |
-| **AI workflows** | ChatGPT · Claude · Gemini |
-
----
-
-### Background
-
-The route here was psychology first, product second, and the first half turns out to matter more than I expected — most of what I do now is about how people behave when a system asks something of them.
-
-| | |
-|---|---|
-| **AI Trainer** — Alignerr | Apr 2025 – Present · annotation for orthodontic treatment-planning models |
-| **AI Data Evaluator & Labeling** — TELUS International | 2023, 2024–25 · training datasets, response evaluation, labelling QA |
-| **Technical Program Manager** — Align Technē | Jul 2024 – Jan 2025 · Azure OpenAI chatbot for 500+ stakeholders, SAP master data migration |
-| **Trainee, Talent Transformation** — Annalect India (Omnicom) | Nov 2023 – Jun 2024 · product launch, A/B testing, Tableau, GTM |
-| **Sales Operations** — Think & Learn | Jun 2022 – Jun 2023 · product expert, engagement analysis, lifecycle |
-
-**MBA, AI for Business** — BITS Pilani *(in progress)* · **MSc Psychology** — St. Agnes Centre for PG Studies · **BSc Psychology** — Sahrudaya College
-
-Certified across Google Data Analytics, Google Cloud GenAI (Vertex AI, vector search and embeddings, MLOps, multimodal RAG), IBM GenAI foundations, and PMI's Generative AI for Project Managers.
-
----
-
-📫 **akr24698@gmail.com** — happy to talk about product, analysis, or anything in the two paragraphs above.
+</details>

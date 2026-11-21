@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="148" viewBox="0 0 1120 148" role="img" aria-labelledby="title desc">
+  <title id="title">A SpendLens guardrail decision</title>
+  <desc id="desc">In one demo household a proposed ₹880 cut to groceries was blocked because groceries are an essential expense.</desc>
+  <defs>
+    <clipPath id="card"><rect width="1120" height="148" rx="15"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1120" height="148" fill="#fbf0df"/>
+    <path d="M603 0h517v148H552z" fill="#173e3a"/>
+    <path d="M604 0 553 148" fill="none" stroke="#d8ac85" stroke-width="3"/>
+    <g transform="translate(32 44)" fill="none" stroke="#934642" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M7 0h40v57l-7-4-7 4-6-4-6 4-7-4-7 4z"/>
+      <path d="M17 15h20M17 25h20m-20 10h9"/>
+    </g>
+    <g font-family="DejaVu Sans, Arial, sans-serif" fill="#3d242c">
+      <text x="99" y="52" font-size="20" font-weight="bold" letter-spacing="2.2" fill="#794744">PROPOSED CUT</text>
+      <text x="96" y="104" font-size="43" font-weight="bold" letter-spacing="-1.7">₹880 from groceries</text>
+    </g>
+    <g transform="translate(626 42)" fill="none" stroke="#b8efd0" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M28 0 51 9v18c0 15-10 26-23 33C15 53 5 42 5 27V9z"/>
+      <path d="m17 28 8 8 15-17"/>
+    </g>
+    <g font-family="DejaVu Sans, Arial, sans-serif">
+      <text x="706" y="52" font-size="20" font-weight="bold" letter-spacing="2" fill="#b8efd0">ESSENTIAL EXPENSE</text>
+      <text x="703" y="104" font-size="47" font-weight="bold" letter-spacing="-1.6" fill="#fff7e9">Blocked</text>
+    </g>
+    <rect x=".75" y=".75" width="1118.5" height="146.5" rx="15" fill="none" stroke="#ad827a" stroke-opacity=".58"/>
+  </g>
+</svg>
